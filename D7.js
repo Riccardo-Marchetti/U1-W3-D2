@@ -216,7 +216,7 @@ console.log(u);
 */
 
 const somma1 = movies.reduce((acc1, s) => {
-  return acc1 + s.Year;
+  return acc1 + parseInt(s.Year);
 }, 0);
 console.log(somma1);
 /* ESERCIZIO 14 (find)
